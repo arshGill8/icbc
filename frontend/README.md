@@ -1,3 +1,5 @@
+Components folder contains the 3 forms, "Form 2" contains multiple pages and has been further divided into smaller components within in form2 folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
