@@ -1,0 +1,95 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  height: 55px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.Navbar {
+  height: 60px;
+  background: white;
+  text-align: center;
+  padding: 1rem 0 0.4rem;
+  font-size: 2.2rem;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.05rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 3rem 0 2rem;
+}
+
+.list-item {
+  text-decoration: none;
+  color: black;
+  margin: 1rem 0;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(236, 234, 234);
+  height: 100vh;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.popup-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #FFF ;
+
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.form1{
+  display: flex;
+  flex-direction: column;
+}
+
+.s_input {
+  min-width: 228px;
+  margin: 0.46rem 0;
+ 
+  padding: 0.3rem;
+  font-size: 1rem;
+ 
+}
+@media (min-width:375px) {
+  .s_input {
+    min-width: 82vw;
+   
+}}
+
+@media (min-width:1024px) {
+  .s_input {
+    min-width: 60vw;
+    font-size: 1.1rem;
+
+   
+}}
